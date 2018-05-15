@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{A6BCFAE5-E279-FEFB-E3D8-8EF8492CE4A9}</ProjectGuid>
+    <ProjectGuid>{10FFB555-CFCA-7208-9490-AA21F4D4D6C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -59,6 +59,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EGK\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\Share Resource\PrimitivePlus\Editor\PrimitivePlusMaterialEditor.cs" />
+    <Compile Include="Assets\Share Resource\PrimitivePlus\Editor\PrimitivePlusMenuItems.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\ComponentFactoryStarter\ComponentFactoryStarter.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\ExtensionImport.cs" />
     <Compile Include="Assets\Vuforia\Editor\Scripts\PostProcessBuildPlayer.cs" />
@@ -66,13 +69,13 @@
     <Compile Include="Assets\Vuforia\Editor\Scripts\VuforiaConfigurationEditor.cs" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
     <Reference Include="Assembly-UnityScript-Editor-firstpass">
-      <HintPath>C:/Users/1/Desktop/Card/New Unity Project (5)/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/1/Desktop/Card/New Unity Project (5)/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/1/Documents/GitHub/ARSTUDY/ARSTUDY/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/1/Desktop/Card/New Unity Project (5)/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/1/Documents/GitHub/ARSTUDY/ARSTUDY/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/1/Documents/GitHub/ARSTUDY/ARSTUDY/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -308,6 +311,12 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.UnityExtensions.Editor">
+      <HintPath>C:/Users/1/Documents/GitHub/ARSTUDY/ARSTUDY/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>C:/Users/1/Documents/GitHub/ARSTUDY/ARSTUDY/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/1/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -329,11 +338,17 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Vuforia.UnityExtensions.Editor">
-      <HintPath>C:/Users/1/Desktop/Card/New Unity Project (5)/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+    <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
+      <HintPath>C:/Users/1/Documents/GitHub/ARSTUDY/ARSTUDY/Assets/Share Resource/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>C:/Users/1/Desktop/Card/New Unity Project (5)/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+    <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
+      <HintPath>C:/Users/1/Documents/GitHub/ARSTUDY/ARSTUDY/Assets/Share Resource/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets">
+      <HintPath>C:/Users/1/Documents/GitHub/ARSTUDY/ARSTUDY/Assets/EGK/JMO Assets/Editor/JMOAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="JMOAssets_CartoonFXFreeWelcome">
+      <HintPath>C:/Users/1/Documents/GitHub/ARSTUDY/ARSTUDY/Assets/EGK/JMO Assets/Editor/JMOAssets_CartoonFXFreeWelcome.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
@@ -365,7 +380,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{4FB7A59B-795D-546C-5482-7DE6F6532B31}</Project>
+      <Project>{43ED4225-31D8-2C56-00FA-EB10E020AE14}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
